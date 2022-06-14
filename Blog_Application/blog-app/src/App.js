@@ -14,7 +14,7 @@ function App() {
       bg={useColorModeValue("white", "blackAlpha.300")}
       color={useColorModeValue("black", "gray.200")}
     >
-      <Navbar />
+      <Navbar />Hello
       <Routes>
         <Route path="/" element={<Homepage />} />
         <Route path="/articles" element={<Articles />} />
